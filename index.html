@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="filters">
+    <button onclick="setFilter('all')">Todas</button>
+    <button onclick="setFilter('pending')">Pendientes</button>
+    <button onclick="setFilter('completed')">Completadas</button>
+</div>
+
+<p id="counter"></p>
+
+        <h1>📋 Lista de Tareas</h1>
+
+        <input type="text" id="taskInput" placeholder="Escribe una tarea">
+        <button onclick="addTask()">Agregar tarea</button>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
