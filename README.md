@@ -1,19 +1,18 @@
-# 📋 Lista de Tareas - Frontend
+# Interfaz de tareas pendientes
 
-Aplicación frontend para gestionar tareas usando HTML, CSS y JavaScript.
+Aplicación frontend para gestionar tareas pendientes.
 
 ## 🚀 Funcionalidades
 - Agregar tareas
-- Eliminar tareas
 - Marcar tareas como completadas
-- Filtros (todas, pendientes, completadas)
-- Guardado persistente con localStorage
-- Fecha y hora de creación de cada tarea
+- Eliminar tareas
+- Filtrar por todas / pendientes / completadas
+- Persistencia de datos con localStorage
 
 ## 🛠️ Tecnologías usadas
 - HTML
 - CSS
-- JavaScript (DOM, eventos, localStorage)
+- JavaScript (DOM, localStorage)
 
-## 🎯 Objetivo
-Proyecto creado para practicar desarrollo frontend y manejo del DOM.
+## 📦 Almacenamiento
+Las tareas se guardan en el navegador usando localStorage, por lo que persisten aunque se recargue o cierre la página.
